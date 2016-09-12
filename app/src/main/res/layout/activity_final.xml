@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/headerText"
+        android:layout_marginBottom="56dp"
+        android:gravity="center"
+        android:text="@string/thank_you"
+        android:textAllCaps="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question_one_result"
+            style="@style/questionText"
+            android:layout_marginBottom="24dp"
+            android:text="@string/question_one_result"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/question_two_result"
+            style="@style/questionText"
+            android:layout_marginBottom="24dp"
+            android:text="@string/question_two_result"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/question_three_result"
+            style="@style/questionText"
+            android:layout_marginBottom="24dp"
+            android:text="@string/question_three_result"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/question_four_result"
+            style="@style/questionText"
+            android:layout_marginBottom="24dp"
+            android:text="@string/question_four_result"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/question_five_result"
+            style="@style/questionText"
+            android:layout_marginBottom="24dp"
+            android:text="@string/question_five_result"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/results_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="ViewResults"
+        android:text="@string/get_results_button" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/previousPage"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="56dp"
+            android:layout_marginRight="56dp"
+            android:onClick="openMainPage"
+            android:text="@string/go_to_main_page" />
+
+        <Button
+            android:id="@+id/nextQuestion"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:onClick="exitApplication"
+            android:text="@string/exit_application_button_text" />
+    </LinearLayout>
+</LinearLayout>

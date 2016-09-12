@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jimmyavila.quizapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/questions"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".QuestionOne"
+            android:label="First question"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".QuestionTwo"
+            android:label="Second question"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".QuestionThree"
+            android:label="Third question"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".QuestionFour"
+            android:label="Fourth question"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".QuestionFive"
+            android:label="Fifth question"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".FinalActivity"
+            android:label="Final Activity"
+            android:theme="@style/AppTheme"/>
+    </application>
+
+</manifest>

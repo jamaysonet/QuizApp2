@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/headerText"
+            android:layout_marginBottom="32dp"
+            android:text="@string/question_four_act_four" />
+
+        <TextView
+            style="@style/questionText"
+            android:layout_marginBottom="56dp"
+            android:text="@string/question_for_act_four" />
+
+        <RadioGroup
+            android:id="@+id/radio_button_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/ninth_wrong_answer"
+                style="@style/selectAnswerText"
+                android:text="@string/twenty_nine_text" />
+
+            <RadioButton
+                android:id="@+id/fifteen_wrong_answer"
+                style="@style/selectAnswerText"
+                android:text="@string/twenty_five_text" />
+
+            <RadioButton
+                android:id="@+id/sixteen_wrong_answer"
+                style="@style/selectAnswerText"
+                android:text="@string/eighteen_text" />
+
+            <RadioButton
+                android:id="@+id/correct_answer_radio_button"
+                style="@style/selectAnswerText"
+                android:text="@string/twenty_one_text" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/additional_info_question_four"
+            style="@style/additionalInfoStyle"
+            android:text="@string/additional_info" />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:onClick="submitAnswer"
+            android:text="@string/submit_text_four" />
+    </LinearLayout>
+</ScrollView>

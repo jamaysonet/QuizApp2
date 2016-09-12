@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    tools:context="com.example.jimmyavila.quizapp.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/einstein" />
+
+    <TextView
+        android:id="@+id/welcome_text_view"
+        style="@style/headerText"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/welcome_text_main"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/intro_paragraph_text"
+        style="@style/questionText"
+        android:layout_below="@+id/welcome_text_view"
+        android:layout_marginBottom="24dp"
+        android:text="@string/welcome_message"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/begin_button"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_below="@+id/intro_paragraph_text"
+        android:layout_marginBottom="36dp"
+        android:background="#F44336"
+        android:onClick="StartQuiz"
+        android:text="@string/begin_button_main"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_below="@+id/begin_button"
+        android:background="#F44336"
+        android:onClick="ExitApplication"
+        android:text="@string/exit_button_main"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

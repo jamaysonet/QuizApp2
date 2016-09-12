@@ -1,0 +1,72 @@
+<resources>
+    <!-- Set of strings for the all activities -->
+
+    <!-- Set of strings for the main activity -->
+    <string name="app_name">Test your spanish knowledge</string>
+    <string name="welcome_message">This quiz will ask questions about spanish. Please press start to begin.</string>
+    <string name="welcome_text_main">Welcome</string>
+    <string name="begin_button_main">Begin</string>
+    <string name="exit_button_main">Exit</string>
+
+    <!-- Set of strings for the question_one activity -->
+    <string name="question_1_act_one">Question #1</string>
+    <string name="question_activity_one">When was the Spanish language first developed?</string>
+    <string name="additional_info_quest_one">Additional info: The Spanish language evolved from Vulgar Latin, which was brought to the Iberian Peninsula by the Romans during the Second Punic War, beginning in 210 BC.</string>
+    <string name="ninth_century">9th Century</string>
+    <string name="fifteenth_century">15th Century</string>
+    <string name="twelfth_century">12th Century</string>
+    <string name="sixteenth_century">16th Century</string>
+    <string name="submit_button_text">Submit</string>
+
+    <!-- Set of strings for the question_two activity -->
+    <string name="question_two_header">Question #2</string>
+    <string name="question_two_act_two">Spanish is spoken in _____ Countries worldwide.  It is estimated that the combined total number of Spanish speakers is between 470 and 500 million. Spanish is the second most spoken language by total number of speakers (after Mandarin). Internet usage statistics as of 2015 show Spanish as the third most commonly used language on the Internet, after English and Mandarin. </string>
+    <string name="enter_number_here">Enter number here</string>
+    <string name="submit_answer">Submit</string>
+
+    <!-- Set of strings for the question_three activity -->
+    <string name="question_three">Question #3</string>
+    <string name="question_number_three_act_three">After Latin, the language that has had the biggest influence on Spanish is?</string>
+    <string name="additional_info_question_three">Additional info: Today, the foreign language exerting the most influence is English, and Spanish has adopted hundreds of English words related to technology and culture.</string>
+    <string name="celtiberian_answer_text">Celtiberian</string>
+    <string name="arabic_answer_text">Arabic</string>
+    <string name="bosque_answer_text">Bosque</string>
+    <string name="submit_answer_text">Submit</string>
+
+    <!-- Set of strings for the question_four activity -->
+    <string name="question_four_act_four">Question #4</string>
+    <string name="question_for_act_four">In how many countries is Spanish the official language spoken?</string>
+    <string name="additional_info">Additional info: Spanish is the official language in Argentina, Bolivia, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador, Equatorial Guinea, El Salvador, Guatemala, Honduras, Mexico, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Spain, Uruguay, and Venezuela.</string>
+    <string name="twenty_nine_text">29</string>
+    <string name="twenty_five_text">25</string>
+    <string name="eighteen_text">18</string>
+    <string name="twenty_one_text">21</string>
+    <string name="submit_text_four">Submit</string>
+
+    <!-- Set of strings for the question_five activity -->
+    <string name="question_five_act_five">Question #5</string>
+    <string name="last_question">Most Spanish speakers reside within Hispanic America; of all countries with a majority of Spanish speakers, which two reside outside of the Americas?</string>
+    <string name="additional_info_question_five">Additional info: While relatively unknown, there is a flag representing the countries of Spanish America, its people, history and shared cultural legacy. It was created in October 1933 by Ángel Camblor, captain of the Uruguayan army. It was adopted by all the states of Spanish America during the Pan-American Conference of the same year in Montevideo, Uruguay.</string>
+    <string name="next">Next</string>
+    <string name="peru">Peru</string>
+    <string name="spain">Spain</string>
+    <string name="paraguay">Paraguay</string>
+    <string name="equatorial_guinea">Equatorial Guinea</string>
+    <string name="bolivia">Bolivia</string>
+    <string name="submit">Submit</string>
+
+    <!-- Set of strings for the final activity -->
+    <string name="thank_you">Thank you</string>
+    <string name="final_paragraph">I do hope you enjoyed the quiz app as well as the additional information and stay tuned for more questions in the future. Have a wonderful day.</string>
+    <string name="exit_application_button_text">Exit</string>
+    <string name="french_answer_text">French</string>
+    <string name="question_one_result">Question 1 was</string>
+    <string name="question_two_result">Question 2 was</string>
+    <string name="question_three_result">Question 3 was</string>
+    <string name="question_four_result">Question 4 was</string>
+    <string name="question_five_result">Question 5 was</string>
+    <string name="get_results_button">Results</string>
+    <string name="go_to_main_page">Main Page</string>
+
+
+</resources>
